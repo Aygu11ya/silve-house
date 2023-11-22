@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+ 
+
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+
+}
+.header-nav{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.burger{
+    display: none;
+}
+
+.silki {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.container a{
+    color: #8C8A8A;
+   
+}
+
+.header-container {
+    background: url(../img/block\ 1.png);
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+   margin: 20px 0 ;
+   
+}
+.main .container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+   
+}
+
+.novostroyka-content {
+    background: var(--grey, #F0F0F0);
+    width: 100%;
+}
+
+.container h2 {
+    color: #4581B7;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 50px 0 25px 40px;
+}
+
+.novostroyka-content p {
+    width: 560px;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 95px 51px 40px;
+    text-align: justify;
+}
+
+.contact-content {
+    background: var(--grey, #F0F0F0);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-content p {
+    color: #808080;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 24px 50px 40px;
+}
+
+.contact-content a {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 24px 50px 40px;
+}
+
+
+
+.footer-container{ 
+    background: var(--grey, #F0F0F0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.f{
+    padding: 20px 0;
+}
+.footer-content p {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-content a {
+    color: #808080;
+    font-size: 25px;
+    font-weight: 700;
+}
